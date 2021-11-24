@@ -183,3 +183,10 @@ article p {
   color: yellow;
   padding: 5px;
 }
+
+@media screen and (max-width: 375px) {
+  .main {
+    max-width: 375px;
+    background-color: yellow;
+  }
+}

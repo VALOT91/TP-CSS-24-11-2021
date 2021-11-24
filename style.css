@@ -183,3 +183,64 @@ article p {
   color: yellow;
   padding: 5px;
 }
+
+@media screen and (max-width: 375px) {
+  main {
+    align-items: flex-start;
+  }
+  nav {
+    display: none;
+  }
+
+  nav img {
+    display: flex;
+    max-width: 375px;
+  }
+  #logo {
+    position: relative;
+    top: -130px;
+    left: 10px;
+  }
+  section {
+    width: 100%;
+    padding: 10px;
+  }
+  .jeux img {
+    max-width: 90%;
+    text-align: center;
+    margin-left: 5px;
+    padding: 10px;
+  }
+
+  .BlocJeux {
+    position: relative;
+    left: -14rem;
+    top: -27rem;
+    font-size: x-large;
+    overflow-y: hidden;
+  }
+
+  .jeux div h2,
+  .produits div h2 {
+    margin-left: 20px;
+    font-size: 5rem;
+  }
+
+  article {
+    min-width: 30%;
+    margin: 10px;
+    font-size: larger;
+  }
+
+  .blockProduits {
+    max-width: 800px;
+    max-height: 220px;
+    overflow-y: hidden;
+
+    margin-left: 30px;
+  }
+
+  footer {
+    display: none;
+  }
+}
